@@ -10,6 +10,7 @@
     font-family: "Montserrat";
     margin: 0;
     padding: 0;
+   
   }
   
   /* Event form */
@@ -29,6 +30,7 @@
   #disclaimer .event-date {
     color: var(--primary);
   }
+  
   
   #disclaimer h2 {
     font-size: 3em;
@@ -56,6 +58,7 @@
     background-color: var(--secondary);
     padding: 2em;
     max-width: 22%;
+    
   }
   
   #subscription-form p {
@@ -302,7 +305,7 @@
     }
   
     #disclaimer {
-      padding: 2em;
+      padding: 10px;
     }
   
     #disclaimer h2 {
@@ -391,10 +394,14 @@
       width: 80%;
     }
   }
-
-  .thiago{
-    color:#ffbe0b;
-    margin-top: 35px;
-    text-decoration: none;
-    font-weight: 600;
+  @media (max-width: 320px) {
+  
+    #subscription-form {
+      max-width: 95%;
+      margin-bottom: 2em;
+    }
+  
+    
   }
+
+  
